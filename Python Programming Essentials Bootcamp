@@ -1,0 +1,7 @@
+current_altitude = int(input("What is your current altitude? "))
+if current_altitude > 10000:
+    print("Suggest the pilot to go around")
+elif current_altitude > 5000:
+    print("Suggest the pilot to land the plane by bringing it to 1000ft")
+else:
+    print("You can land the plane")
