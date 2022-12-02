@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    body {
+    background-color:#3A3A3A;
+    }
+    h1 {
+    font-family:Arial; 
+    font-size:30px;
+    color:#FFFFFF;
+    }
+    #container {
+    width:600px;
+    margin:auto;
+    }
+    .box {
+    padding:20px;
+    background:#FFFFFF;
+    margin-top:20px;
+    }
+</style>
+<script>
+    function fadeIn(){ 
+        document.getElementById("box1").style.animation = "fadein 2s";
+    }
+    function bounce(){ 
+        document.getElementById("box2").style.animation = "bounce 2s";
+    }
+    function rotate(){ 
+        document.getElementById("box3").style.animation = "rotate 2s";
+    }
+</script>
+</head>
+<body>
+<div id="container">
+    <h1>Anim
